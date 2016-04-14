@@ -1,0 +1,20 @@
+# Site settings
+title: SuperYacht Finishing
+email: info@superyachtfinishing.com
+url: https://www.superyachtfinishing.com
+baseurl: 
+description: "Premier Large Yacht Fairing & Painting Services"
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-dark: '#111114'
+  links: '#CCBB77'
+
+# Footer settings
+footer: SuperYacht Finishing
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+host: 0.0.0.0
