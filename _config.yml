@@ -1,4 +1,5 @@
 # Site settings
+organisation: SuperYacht Finishing
 title: SuperYacht Finishing
 email: info@superyachtfinishing.com
 url: https://www.superyachtfinishing.com
@@ -10,11 +11,11 @@ color:
   primary-dark: '#111114'
   links: '#CCBB77'
 
-# Footer settings
-footer: SuperYacht Finishing
-
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+sass:
+  style: compressed
 
 host: 0.0.0.0
