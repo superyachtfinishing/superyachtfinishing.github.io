@@ -1,16 +1,13 @@
-<head>
-    <meta charset="utf-8">
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="viewport" content="width=device-width">
-    <meta name="description" content="{{ site.description }}">
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+<link rel="shortcut icon" type="image/png"  href="{{ '/assets/img/syf-logo-64.png' | relative_url }}">
+<meta name="description" content="{{ site.description }}">
+<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
-    <link rel="shortcut icon" type="image/png"  href="{{ 'assets/img/syf-logo-64.png' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css' | relative_url }}" type="text/css">
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" type="text/css">
+<link rel="stylesheet" href="{{ '/assets/css/font-awesome/css/font-awesome.min.css' | relative_url }}" type="text/css">
 
-    <link rel="stylesheet" href="{{ 'assets/css/bootstrap.min.css' | relative_url }}">
-    <link rel="stylesheet" href="{{ 'assets/css/main.css' | relative_url }}">
-    <link rel="stylesheet" href="{{ 'assets/css/font-awesome/css/font-awesome.min.css' | relative_url }}">
-    
-    <link href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-</head>
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" type="text/css">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700" type="text/css">

@@ -1,15 +1,12 @@
 <!DOCTYPE html>
-<html>
-    {% include head.html %}
+<html lang="{{ site.lang | default: 'en' }}">
+    <head>
+        {% include head.html %}
+    </head>
     <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-    {% include nav.html %}
-    {% include header.html %}
-    {% include about.html %}
-    {% include actionshot.html %}
-    {% include services.html %}
-    {% include map.html %}
-    {% include contact.html %}
-    {% include footer.html %}
-    {% include js.html %}
+        {% include nav.html %}
+        {{ content }}
+        {% include footer.html %}
+        {% include javascript.html %}
     </body>
 </html>
